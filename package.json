@@ -1,11 +1,12 @@
 {
   "name": "demo1",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "my first electron app",
   "main": "main.js",
   "author": "hclz",
   "license": "MIT",
   "scripts": {
+    "run": "electron .",
     "start": "electron-forge start",
     "package": "electron-forge package",
     "make": "electron-forge make",
@@ -21,6 +22,7 @@
     "electron": "^22.0.3"
   },
   "dependencies": {
-    "electron-squirrel-startup": "^1.0.0"
+    "electron-squirrel-startup": "^1.0.0",
+    "update-electron-app": "^2.0.1"
   }
 }

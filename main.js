@@ -1,3 +1,4 @@
+require('update-electron-app')()
 const { app, BrowserWindow } = require('electron')
 // 需在当前文件内开头引入 Node.js 的 'path' 模块
 const path = require('path')
